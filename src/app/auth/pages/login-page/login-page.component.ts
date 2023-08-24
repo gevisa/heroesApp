@@ -4,6 +4,12 @@ import { Component } from '@angular/core';
   selector: 'app-login-page',
   templateUrl: './login-page.component.html',
   styles: [
+   `
+   #content {
+    display:flex;
+    flex-direction: column;
+   }
+   `
   ]
 })
 export class LoginPageComponent {
