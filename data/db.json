@@ -2,19 +2,11 @@
   "users": [
     {
       "id": 1,
-      "usuario": "John Doe",
+      "user": "John Doe",
       "email": "john.due@gmail.com"
     }
   ],
   "heroes": [
-    {
-      "id": "dc-batman",
-      "superhero": "Batman",
-      "publisher": "DC Comics",
-      "alter_ego": "Bruce Wayne",
-      "first_appearance": "Detective Comics #27",
-      "characters": "Bruce Wayne"
-    },
     {
       "id": "dc-superman",
       "superhero": "Superman",
@@ -110,14 +102,6 @@
       "alter_ego": "Tony Stark",
       "first_appearance": "Tales of Suspense #39",
       "characters": "Tony Stark"
-    },
-    {
-      "id": "marvel-thor",
-      "superhero": "Thor",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Thor Odinson",
-      "first_appearance": "Journey into Myster #83",
-      "characters": "Thor Odinson"
     },
     {
       "id": "marvel-hulk",
