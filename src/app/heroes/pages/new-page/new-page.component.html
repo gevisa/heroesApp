@@ -7,7 +7,7 @@
   <div class="col-12 sm:col-6">
       <mat-card>
         <mat-card-content>
-          <div class="grid" [formGroup]="heroForm" (ngSubmit)="onSubmit()">
+          <form class="grid" [formGroup]="heroForm" (ngSubmit)="onSubmit()">
             <mat-form-field class="col-12 sm:col-6 ">
               <mat-label>Super héroe</mat-label>
               <input
@@ -65,7 +65,7 @@
                 formControlName="alt_img"
               >
             </mat-form-field>
-          </div>
+          </form>
         </mat-card-content>
         <div class="flex justify-content-between p-2">
           <button *ngIf="currentHero.id" (click)="onDeleteHero()" mat-flat-button color="warn">
@@ -88,4 +88,5 @@
   </div>
 
 </div>
+<pre>{{currentHero | json}}</pre>
 
